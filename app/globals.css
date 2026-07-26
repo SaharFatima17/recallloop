@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+:root {
+  --color-ink: #12131a;
+  --color-surface: #1b1d29;
+  --color-surface-raised: #232637;
+  --color-border: #33364a;
+  --color-text: #e9e9f0;
+  --color-text-muted: #8a8ca3;
+  --color-spark: #e8a94c;
+  --color-spark-dim: #6b5330;
+  --color-mastery: #4fd6c4;
+  --color-forgot: #e8617a;
+
+  --font-display: "Fraunces", serif;
+  --font-body: "Inter", sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background: var(--color-ink);
+  color: var(--color-text);
+  font-family: var(--font-body);
+}
+
+body {
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  letter-spacing: -0.01em;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+::selection {
+  background: var(--color-spark-dim);
+  color: var(--color-text);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-spark);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* card flip */
+.flip-scene {
+  perspective: 1600px;
+}
+.flip-card {
+  transition: transform 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+  transform-style: preserve-3d;
+}
+.flip-card.is-flipped {
+  transform: rotateY(180deg);
+}
+.flip-face {
+  backface-visibility: hidden;
+}
+.flip-face-back {
+  transform: rotateY(180deg);
+}
+
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-up {
+  animation: fade-up 0.4s ease-out both;
+}
