@@ -127,11 +127,12 @@ later would mean replacing `lib/storage.ts` behind the same
 
 ## f. Screenshots
 
-<img width="1920" height="1020" alt="New Project – Vercel - Google Chrome 7_26_2026 9_27_32 AM" src="https://github.com/user-attachments/assets/17cc16f6-021d-4017-bb34-6522e4095e45" />
-<img width="1920" height="1020" alt="New Project – Vercel - Google Chrome 7_26_2026 9_27_40 AM" src="https://github.com/user-attachments/assets/3458a4c0-b27e-441d-a521-59847cb6d1ff" />
-<img width="1920" height="1020" alt="New Project – Vercel - Google Chrome 7_26_2026 9_27_54 AM" src="https://github.com/user-attachments/assets/cc6866fc-89cb-4a5a-a9fb-bbde45a2553a" />
-<img width="1920" height="1020" alt="New Project – Vercel - Google Chrome 7_26_2026 9_28_38 AM" src="https://github.com/user-attachments/assets/2e01b6bc-bc34-47ac-b57c-8a21be01352f" />
-<img width="1920" height="1020" alt="New Project – Vercel - Google Chrome 7_26_2026 9_28_15 AM" src="https://github.com/user-attachments/assets/790d5c41-0059-40b3-ac52-e1ce7ed3fb0a" />
+<img width="1920" height="882" alt="New Project – Vercel - Google Chrome 7_26_2026 9_28_38 AM" src="https://github.com/user-attachments/assets/d47e37a0-72f8-4d0c-9270-c963ac3275fa" />
+<img width="1920" height="874" alt="New Project – Vercel - Google Chrome 7_26_2026 9_28_15 AM" src="https://github.com/user-attachments/assets/b98f3371-5520-4259-9a6b-b55f4baadc8c" />
+<img width="1920" height="893" alt="New Project – Vercel - Google Chrome 7_26_2026 9_27_54 AM" src="https://github.com/user-attachments/assets/dbaf42ca-02f4-46f3-b6c2-ad1604c17cd6" />
+<img width="1920" height="893" alt="New Project – Vercel - Google Chrome 7_26_2026 9_27_40 AM" src="https://github.com/user-attachments/assets/88a58915-80fa-4c70-93fe-c53a4d3f64c9" />
+<img width="1920" height="886" alt="New Project – Vercel - Google Chrome 7_26_2026 9_27_32 AM" src="https://github.com/user-attachments/assets/ba758eef-4eb8-48d5-be69-710786b98854" />
+
 
 
 
